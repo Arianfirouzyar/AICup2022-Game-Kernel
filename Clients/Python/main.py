@@ -129,7 +129,8 @@ class GameState:
         # write your code here
         # return the action value
         # return Action.STAY
-        return random.randint(0, 20)
+        return random.randint(0, 11)
+
 
 
 if __name__ == '__main__':
