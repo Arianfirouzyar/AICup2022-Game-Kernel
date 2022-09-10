@@ -1,6 +1,6 @@
 {
-  "rounds": 150,
-  "def_upgrade_cost": 3,
+  "rounds": 20,
+  "def_upgrade_cost": 2,
   "atk_upgrade_cost": 2,
   "cool_down_rate": 0.5,
   "linear_attack_range": 3,
