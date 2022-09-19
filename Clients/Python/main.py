@@ -1,5 +1,6 @@
 from os import makedirs
 from enum import Enum
+import random
 
 DEBUG = 0
 
@@ -127,7 +128,8 @@ class GameState:
     def get_action(self) -> Action:
         # write your code here
         # return the action value
-        return Action.STAY
+        # return Action.STAY
+        return random.randint(0, 11)
 
 
 if __name__ == '__main__':
